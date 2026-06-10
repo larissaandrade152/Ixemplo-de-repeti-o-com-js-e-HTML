@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="Perguntar()">Perguntar</button>
+    <script>
+        function Perguntar(){
+            let nome
+            let resposta
+            do{
+                //Rotina para solicitar dados do cliente
+                nome = prompt('Digite seu nome:')
+                idade = prompt("Digite sua idade:")
+                email = prompt("Digite seu e-mail")
+                resposta = prompt('Quer continuar cadastrando?')
+
+               }while (resposta == "s")   
+            }
+        </script>
+    </body>
+    </html>
